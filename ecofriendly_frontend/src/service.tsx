@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/v1";
+const API_URL = "https://clownfish-app-lf647.ondigitalocean.app/api/v1";
 
 interface Response {
   status: string;
