@@ -1,7 +1,7 @@
 # Eco-Friendly Recipe App
 
 ## Introduction
-Welcome to our eco-friendly recipe app project! Our goal is to create an innovative application that promotes sustainable cooking and reduces food waste. The Data thanks to WWF and 
+Welcome to our eco-friendly recipe app project! Our goal is to create an innovative application that promotes sustainable cooking and reduces food waste. The Data thanks to WWF and FloridaMilk.
 
 ## Objectives
 - Develop an app that provides eco-friendly recipes
