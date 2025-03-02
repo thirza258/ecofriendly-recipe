@@ -23,6 +23,9 @@ function App() {
     "What recipes do you want to see?"
   );
 
+  const chef_image = new URL("./assets/undraw_chef.svg", import.meta.url).href;
+  const breakfast_image = new URL("./assets/undraw_breakfast.svg", import.meta.url).href;
+
   const formatList = (text: string) => {
     return text
       .split(/[;.]/) 
@@ -61,15 +64,15 @@ function App() {
     <div className="relative flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100">
     {/* Background Images */}
     <img
-        src="/undraw_chef.svg"
-        alt="Chef"
-        className="absolute w-40 opacity-50 z-[-1] top-[10%] left-[5%] pointer-events-none"
-      />
-      <img
-        src="/undraw_breakfast.svg"
-        alt="Breakfast"
-        className="absolute w-40 opacity-50 z-[-1] bottom-[15%] right-[10%] pointer-events-none"
-      />
+      src={chef_image}
+      alt="Chef"
+      className="absolute w-40 opacity-90  top-[10%] left-[5%] pointer-events-none"
+    />
+    <img
+      src={breakfast_image}
+      alt="Breakfast"
+      className="absolute w-40 opacity-80  bottom-[15%] right-[10%] pointer-events-none"
+    />
 
     <div className="w-full max-w-2xl mt-40 text-center">
       <h1 className="text-4xl font-semibold text-gray-800">
