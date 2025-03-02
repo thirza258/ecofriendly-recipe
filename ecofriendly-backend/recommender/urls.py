@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("", views.RecommenderView.as_view(), name="recommender"),
+    path('recipes/', views.GetAllRecipe.as_view(), name='recipes'),
+    path('recommendation/', views.RecommendationSystem.as_view(), name='recommendation'),
 ]
