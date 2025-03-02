@@ -1,7 +1,6 @@
 import { useState } from "react";
 import service from "./service";
-import chef_image from "./assets/undraw_chef.svg";
-import breakfast_image from "./assets/undraw_breakfast.svg";
+
 
 interface Response {
   response: string;
@@ -62,15 +61,15 @@ function App() {
     <div className="relative flex flex-col items-center justify-center min-h-screen p-6 bg-gray-100">
     {/* Background Images */}
     <img
-      src={chef_image}
-      alt="Chef"
-      className="absolute w-40 opacity-90  top-[10%] left-[5%] pointer-events-none"
-    />
-    <img
-      src={breakfast_image}
-      alt="Breakfast"
-      className="absolute w-40 opacity-80  bottom-[15%] right-[10%] pointer-events-none"
-    />
+        src="/undraw_chef.svg"
+        alt="Chef"
+        className="absolute w-40 opacity-50 z-[-1] top-[10%] left-[5%] pointer-events-none"
+      />
+      <img
+        src="/undraw_breakfast.svg"
+        alt="Breakfast"
+        className="absolute w-40 opacity-50 z-[-1] bottom-[15%] right-[10%] pointer-events-none"
+      />
 
     <div className="w-full max-w-2xl mt-40 text-center">
       <h1 className="text-4xl font-semibold text-gray-800">
